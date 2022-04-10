@@ -1,0 +1,9 @@
+
+$(document).ajaxSend(function(event, xhr, settings) { if (!/^https?:.*/.test(settings.url)) xhr.setRequestHeader("X-CSRFToken", "MpYDXMWpO98itsIuTohhcLo1DT3wUhqYAOJYVI9gZVcvfES3jNexhPhlshsOAuwP"); });
+var the_user = null;
+var the_page = {"reactions": [{"name": "smile", "count": 0, "me": false}, {"name": "scream", "count": 0, "me": false}, {"name": "hugging", "count": 0, "me": false}, {"name": "rage", "count": 0, "me": false}, {"name": "ok_hand", "count": 0, "me": false}, {"name": "clap", "count": 0, "me": false}, {"name": "chart_with_downwards_trend", "count": 0, "me": false}, {"name": "broken_heart", "count": 0, "me": false}, {"name": "100", "count": 0, "me": false}, {"name": "turtle", "count": 0, "me": false}, {"name": "hamburger", "count": 0, "me": false}, {"name": "baseball", "count": 0, "me": false}, {"name": "money_mouth", "count": 0, "me": false}, {"name": "statue_of_liberty", "count": 0, "me": false}], "position": null};
+
+var the_segment = "Other";
+var is_ad_free = false;
+var is_congress_in_session_live = {"house": "no", "senate": "no", "as_of": "2022-04-01T17:47:56.923357"};
+
